@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Basenji",
+        "confidence": 0.20128610730171204
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.05657998099923134
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.04940192401409149
+    },
+    {
+        "class_name": "American Staffordshire Terrier",
+        "confidence": 0.03193237632513046
+    },
+    {
+        "class_name": "Staffordshire Bull Terrier",
+        "confidence": 0.02682005614042282
+    }
+]

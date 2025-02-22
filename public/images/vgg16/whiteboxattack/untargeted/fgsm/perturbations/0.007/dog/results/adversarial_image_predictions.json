@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Basenji",
+        "confidence": 0.16176268458366394
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.13462063670158386
+    },
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.07138894498348236
+    },
+    {
+        "class_name": "Miniature Pinscher",
+        "confidence": 0.05021701753139496
+    },
+    {
+        "class_name": "American Staffordshire Terrier",
+        "confidence": 0.03273853287100792
+    }
+]

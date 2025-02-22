@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.08722331374883652
+    },
+    {
+        "class_name": "common sorrel",
+        "confidence": 0.08290024101734161
+    },
+    {
+        "class_name": "Basset Hound",
+        "confidence": 0.06292971968650818
+    },
+    {
+        "class_name": "Basenji",
+        "confidence": 0.04952071234583855
+    },
+    {
+        "class_name": "Beagle",
+        "confidence": 0.045106954872608185
+    }
+]

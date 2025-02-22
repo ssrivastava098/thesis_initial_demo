@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "common sorrel",
+        "confidence": 0.07830959558486938
+    },
+    {
+        "class_name": "dingo",
+        "confidence": 0.05903465300798416
+    },
+    {
+        "class_name": "gazelle",
+        "confidence": 0.05123709887266159
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.05095571652054787
+    },
+    {
+        "class_name": "Saluki",
+        "confidence": 0.042870499193668365
+    }
+]

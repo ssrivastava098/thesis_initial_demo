@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.10014738887548447
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.023914385586977005
+    },
+    {
+        "class_name": "tennis ball",
+        "confidence": 0.02263799123466015
+    },
+    {
+        "class_name": "Boston Terrier",
+        "confidence": 0.01948360726237297
+    },
+    {
+        "class_name": "French Bulldog",
+        "confidence": 0.018435359001159668
+    }
+]

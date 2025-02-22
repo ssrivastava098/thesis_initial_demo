@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "poncho",
+        "confidence": 0.35221412777900696
+    },
+    {
+        "class_name": "dishcloth",
+        "confidence": 0.15483056008815765
+    },
+    {
+        "class_name": "scarf",
+        "confidence": 0.10155294090509415
+    },
+    {
+        "class_name": "bib",
+        "confidence": 0.07760455459356308
+    },
+    {
+        "class_name": "apron",
+        "confidence": 0.057883601635694504
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "dingo",
+        "confidence": 0.1422591656446457
+    },
+    {
+        "class_name": "German Shepherd Dog",
+        "confidence": 0.10270434617996216
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.0936913713812828
+    },
+    {
+        "class_name": "Great Dane",
+        "confidence": 0.06484299153089523
+    },
+    {
+        "class_name": "Saluki",
+        "confidence": 0.060224950313568115
+    }
+]

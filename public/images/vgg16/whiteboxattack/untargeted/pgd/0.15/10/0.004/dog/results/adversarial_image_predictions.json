@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Saluki",
+        "confidence": 0.04803433641791344
+    },
+    {
+        "class_name": "dingo",
+        "confidence": 0.037224654108285904
+    },
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.03676274046301842
+    },
+    {
+        "class_name": "English foxhound",
+        "confidence": 0.03552890568971634
+    },
+    {
+        "class_name": "common sorrel",
+        "confidence": 0.03168446943163872
+    }
+]

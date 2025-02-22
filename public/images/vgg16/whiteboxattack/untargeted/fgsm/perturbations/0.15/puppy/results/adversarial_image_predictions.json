@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "ice_bear",
+        "confidence": 0.5109618306159973
+    },
+    {
+        "class_name": "mongoose",
+        "confidence": 0.05493207275867462
+    },
+    {
+        "class_name": "white_wolf",
+        "confidence": 0.04913775995373726
+    },
+    {
+        "class_name": "Arctic_fox",
+        "confidence": 0.026805514469742775
+    },
+    {
+        "class_name": "kuvasz",
+        "confidence": 0.024573061615228653
+    }
+]

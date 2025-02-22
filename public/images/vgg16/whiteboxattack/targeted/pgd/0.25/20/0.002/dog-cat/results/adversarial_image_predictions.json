@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Siamese cat",
+        "confidence": 0.9994133710861206
+    },
+    {
+        "class_name": "Egyptian Mau",
+        "confidence": 0.00048387981951236725
+    },
+    {
+        "class_name": "Chihuahua",
+        "confidence": 4.961828381055966e-05
+    },
+    {
+        "class_name": "lynx",
+        "confidence": 4.504390381043777e-05
+    },
+    {
+        "class_name": "cougar",
+        "confidence": 2.810533487718203e-06
+    }
+]

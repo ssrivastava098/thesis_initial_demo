@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.4869869351387024
+    },
+    {
+        "class_name": "Basset Hound",
+        "confidence": 0.1610323190689087
+    },
+    {
+        "class_name": "common sorrel",
+        "confidence": 0.0638277530670166
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 0.04317854717373848
+    },
+    {
+        "class_name": "tailed frog",
+        "confidence": 0.038491133600473404
+    }
+]

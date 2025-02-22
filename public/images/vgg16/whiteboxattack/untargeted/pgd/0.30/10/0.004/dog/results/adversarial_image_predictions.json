@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "common sorrel",
+        "confidence": 0.041534166783094406
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.03180501237511635
+    },
+    {
+        "class_name": "dingo",
+        "confidence": 0.03137767314910889
+    },
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.02790382318198681
+    },
+    {
+        "class_name": "gazelle",
+        "confidence": 0.02714589610695839
+    }
+]

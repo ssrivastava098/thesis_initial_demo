@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "poncho",
+        "confidence": 0.1541862040758133
+    },
+    {
+        "class_name": "scarf",
+        "confidence": 0.1436367630958557
+    },
+    {
+        "class_name": "cardigan",
+        "confidence": 0.12161659449338913
+    },
+    {
+        "class_name": "doormat",
+        "confidence": 0.06424881517887115
+    },
+    {
+        "class_name": "wool",
+        "confidence": 0.06275095045566559
+    }
+]
