@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.6167852878570557
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.131059929728508
+    },
+    {
+        "class_name": "Pomeranian",
+        "confidence": 0.1055077463388443
+    },
+    {
+        "class_name": "Papillon",
+        "confidence": 0.026156097650527954
+    },
+    {
+        "class_name": "Toy Poodle",
+        "confidence": 0.02166837267577648
+    }
+]

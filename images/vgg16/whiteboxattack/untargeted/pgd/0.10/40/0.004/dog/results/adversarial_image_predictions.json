@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Bloodhound",
+        "confidence": 0.7323727011680603
+    },
+    {
+        "class_name": "Basset Hound",
+        "confidence": 0.24159933626651764
+    },
+    {
+        "class_name": "English foxhound",
+        "confidence": 0.014676781371235847
+    },
+    {
+        "class_name": "Afghan Hound",
+        "confidence": 0.0031995081808418036
+    },
+    {
+        "class_name": "borzoi",
+        "confidence": 0.0022384573239833117
+    }
+]

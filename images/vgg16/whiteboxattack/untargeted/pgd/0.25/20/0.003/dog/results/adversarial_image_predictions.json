@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Saluki",
+        "confidence": 0.14045298099517822
+    },
+    {
+        "class_name": "English foxhound",
+        "confidence": 0.1160135343670845
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 0.11276762932538986
+    },
+    {
+        "class_name": "borzoi",
+        "confidence": 0.08711306750774384
+    },
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.06706412881612778
+    }
+]

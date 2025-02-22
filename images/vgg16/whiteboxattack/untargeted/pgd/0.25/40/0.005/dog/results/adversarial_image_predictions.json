@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Bloodhound",
+        "confidence": 0.6963402032852173
+    },
+    {
+        "class_name": "Basset Hound",
+        "confidence": 0.3036566376686096
+    },
+    {
+        "class_name": "Black and Tan Coonhound",
+        "confidence": 1.9576091290218756e-06
+    },
+    {
+        "class_name": "Afghan Hound",
+        "confidence": 3.5617267712950706e-07
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 2.6306642553208803e-07
+    }
+]

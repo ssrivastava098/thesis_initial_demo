@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.07390507310628891
+    },
+    {
+        "class_name": "Basenji",
+        "confidence": 0.042743902653455734
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.03441086784005165
+    },
+    {
+        "class_name": "Ibizan Hound",
+        "confidence": 0.022932933643460274
+    },
+    {
+        "class_name": "Italian Greyhound",
+        "confidence": 0.021524472162127495
+    }
+]

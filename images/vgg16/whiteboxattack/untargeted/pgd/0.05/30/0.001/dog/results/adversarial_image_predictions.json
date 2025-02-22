@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.08079774677753448
+    },
+    {
+        "class_name": "Basenji",
+        "confidence": 0.07131633907556534
+    },
+    {
+        "class_name": "Beagle",
+        "confidence": 0.04487597569823265
+    },
+    {
+        "class_name": "dingo",
+        "confidence": 0.042070843279361725
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 0.03500673547387123
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "hippopotamus",
+        "confidence": 0.3872610032558441
+    },
+    {
+        "class_name": "Basset Hound",
+        "confidence": 0.22481709718704224
+    },
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.1209099292755127
+    },
+    {
+        "class_name": "tailed frog",
+        "confidence": 0.04393767565488815
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 0.024853046983480453
+    }
+]

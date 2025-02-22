@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "dingo",
+        "confidence": 0.04428361728787422
+    },
+    {
+        "class_name": "Saluki",
+        "confidence": 0.042768459767103195
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.03966645896434784
+    },
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.036861106753349304
+    },
+    {
+        "class_name": "Ibizan Hound",
+        "confidence": 0.03665824979543686
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "ice_bear",
+        "confidence": 0.4715743660926819
+    },
+    {
+        "class_name": "Arctic_fox",
+        "confidence": 0.05974462255835533
+    },
+    {
+        "class_name": "white_wolf",
+        "confidence": 0.03542602062225342
+    },
+    {
+        "class_name": "Bedlington_terrier",
+        "confidence": 0.03166411072015762
+    },
+    {
+        "class_name": "Sealyham_terrier",
+        "confidence": 0.011263738386332989
+    }
+]

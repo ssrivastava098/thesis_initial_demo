@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Basset Hound",
+        "confidence": 0.42084282636642456
+    },
+    {
+        "class_name": "Redbone Coonhound",
+        "confidence": 0.1597960889339447
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 0.1384391188621521
+    },
+    {
+        "class_name": "Beagle",
+        "confidence": 0.07742702960968018
+    },
+    {
+        "class_name": "English foxhound",
+        "confidence": 0.057148631662130356
+    }
+]

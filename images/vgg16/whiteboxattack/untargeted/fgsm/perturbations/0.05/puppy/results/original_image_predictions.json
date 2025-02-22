@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Labrador_retriever",
+        "confidence": 0.5329077839851379
+    },
+    {
+        "class_name": "kuvasz",
+        "confidence": 0.08956056088209152
+    },
+    {
+        "class_name": "Great_Pyrenees",
+        "confidence": 0.03402961790561676
+    },
+    {
+        "class_name": "tennis_ball",
+        "confidence": 0.025473373010754585
+    },
+    {
+        "class_name": "sulphur-crested_cockatoo",
+        "confidence": 0.015025527216494083
+    }
+]
