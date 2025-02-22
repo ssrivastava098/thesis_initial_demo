@@ -1,0 +1,179 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  box-sizing: border-box;
+}
+.box
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(45, 45, 44);
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_box
+{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    border: 1px solid wheat;
+}
+
+
+#Select_Image-dropdown
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 85%;
+}
+
+#common_params
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#slider-label
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hover-button
+{
+  background-color: #8b7f7f9e; 
+    color: white; 
+    padding: 2px;
+    margin: 2px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.hover-button:hover
+{
+  background-color: #ece5e5;
+  color: rgb(15, 13, 13);
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS Related to the dropdown in White Box Panel*/
+.whitebox-panel-dropdown {
+      display: flex;
+      border-radius: 5px;
+      height: 100%;
+      justify-content: center;
+  } 
+  
+  .whitebox-panel-dropdown-button {
+    background-color: #8b7f7f9e; 
+    color: white; 
+    padding: 4px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 85%;
+    height: 100%;
+  }
+  
+  .whitebox-panel-dropdown-button:hover {
+    background-color: #edf5ed; 
+    color: black;
+  }
+  
+  .whitebox-panel-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 20px;
+    background-color: #a6a4a4;
+    /* min-width: 160px; */
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .whitebox-panel-dropdown-content button {
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 2px;
+    font-size: 12px;
+    border: 1px solid black;
+  }
+  
+  .whitebox-panel-dropdown-content button:hover {
+    background-color: #2e2c2c;
+    color: rgb(248, 242, 242);
+  }
+  
+  .whitebox-panel-dropdown:hover .whitebox-panel-dropdown-content {
+    display: block; /* Show the dropdown content on hover */
+  }
+/* ---------------------------------------------------------------------------------------------------- */
+.highlight {
+  background-color: #062845; 
+  color: #f5b3b3 !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* PGD CSS */
+#Parameters-div
+{
+    display:flex;
+    flex-direction: row;
+    width: 98%;
+    margin: 2px;
+    padding: 4px;
+    justify-content: space-around;
+    background-color: rgb(114, 58, 58);
+}
+#Slider-div
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    margin: 2px;
+    background-color: #8b7f7f9e; 
+    color: white; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+#slider
+{
+    width: 80%;
+    height: 3px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    appearance: none;
+    background: rgb(250, 243, 243);
+    margin: 5px;
+    /* webkit-appearance: 'none'; */
+}
+#Ok_button
+{
+    display:flex;
+    flex-direction: row;
+    width: 98%;
+    margin: 2px;
+    padding: 2px;
+    justify-content: space-around;
+    background-color: rgb(114, 58, 58);
+}

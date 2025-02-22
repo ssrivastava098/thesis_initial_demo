@@ -36,3 +36,257 @@
     transform: rotate(360deg);
   }
 }
+/* ---------------------------------------------------------------------------------------------------- */
+/* Custom CSS for my APP */
+
+/* This is applied to all the pages. By default there is some CSS applied to each items like padding and margin which I'm trying to eiliminate here in order to start from scratch. I am also applying box-sizing property as well so that every aspect of a container like padding margin border everything is contained within. If we say width 100% then all of the border margin and padding will come within that*/
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  box-sizing: border-box;
+}
+
+/* Set height to 100% for html and body */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS for Home Page */
+
+#home-page-wrapper-div
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: .1%;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS for Navbar of Home Page */
+#home-navbar-div
+{
+  display: flex;
+  flex-direction: row;
+  height:50px;
+  width: 100%;
+  background-color:black;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  box-shadow: 0px 4px 8px rgba(236, 231, 231, 0.1);
+  /* padding: .1%; */
+}
+#home-navbar-logo-div
+{
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-right: 5px;
+  height: 100%;
+  /* border: 1px solid white;
+  border-radius: 5px; */
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+#home-navbar-heading-div
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  margin-right: 5px;
+  /* border: 1px solid white;
+  border-radius: 5px; */
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 233, 233, 0.533);
+}
+#home-navbar-navigation-div
+{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 10%;
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS for Selection Panel of Home Page */
+
+#home-selection-panel-div
+{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  margin-top: 1px;
+  border: 1px solid white;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+#Model-Selection-dropdown
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px;
+  width: 10%;
+}
+
+#Type-of-Attack-dropdown
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px;
+  width: 12%;
+}
+#Targeted-Untargeted-dropdown
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px;
+  width: 10%;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS for main div of Home Page */
+
+#home-main-div
+{
+  display: flex;
+  flex-direction: row;
+  /* min-height: 100px; */
+  height: calc(100vh - 100px);
+  /* flex-grow: 1; */
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* CSS for Parameter-Selection-div */
+
+#home-side-parameter-panel-div
+{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  flex-grow: 0;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#home-result-section-div
+{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height:100%;
+  flex-grow: 1;
+  /* overflow: hidden; */
+  overflow-y: auto;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(53, 52, 52);
+  justify-content:flex-start;
+  align-items: center;
+}
+#Render-Results
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#home-result-section-div > * {
+  width: 100%; /* Make sure each child element takes full width */
+  margin-bottom: 10px; /* Add spacing between items */
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS related to the dropdown */
+ .dropdown {
+  border-radius: 5px;
+} 
+
+.dropdown-button {
+  background-color: #8b7f7f9e; 
+  color: white; 
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.dropdown-button:hover {
+  background-color: #edf5ed; 
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5c5757;
+  /* min-width: 160px; */
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 2px 2px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 2px;
+  border: 1px solid black;
+}
+
+.dropdown-content button:hover {
+  background-color: #2e2c2c;
+  color: rgb(248, 242, 242);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show the dropdown content on hover */
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+.highlight {
+  background-color: #062845; 
+  color: #f5b3b3 !important;
+}
+
+.selected {
+  background-color: rgb(114, 58, 58) !important;
+}
