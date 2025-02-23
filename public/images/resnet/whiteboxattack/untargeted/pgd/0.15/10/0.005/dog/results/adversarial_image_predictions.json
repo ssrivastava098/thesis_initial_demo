@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.1089935377240181
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.0909862071275711
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.076933354139328
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.029073603451251984
+    },
+    {
+        "class_name": "toilet seat",
+        "confidence": 0.028496144339442253
+    }
+]

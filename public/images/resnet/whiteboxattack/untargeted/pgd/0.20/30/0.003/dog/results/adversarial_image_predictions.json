@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.21713675558567047
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.1988121122121811
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.05981235206127167
+    },
+    {
+        "class_name": "toilet seat",
+        "confidence": 0.04234619811177254
+    },
+    {
+        "class_name": "solar thermal collector",
+        "confidence": 0.04056832566857338
+    }
+]

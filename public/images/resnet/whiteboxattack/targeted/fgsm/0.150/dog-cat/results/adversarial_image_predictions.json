@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.5587582588195801
+    },
+    {
+        "class_name": "Pomeranian",
+        "confidence": 0.4184127748012543
+    },
+    {
+        "class_name": "Papillon",
+        "confidence": 0.005696570500731468
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.005037721246480942
+    },
+    {
+        "class_name": "red fox",
+        "confidence": 0.001979483524337411
+    }
+]

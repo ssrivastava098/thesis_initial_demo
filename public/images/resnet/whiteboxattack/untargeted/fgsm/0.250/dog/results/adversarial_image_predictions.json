@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chow Chow",
+        "confidence": 0.15687032043933868
+    },
+    {
+        "class_name": "Persian cat",
+        "confidence": 0.14563874900341034
+    },
+    {
+        "class_name": "teddy bear",
+        "confidence": 0.12364184856414795
+    },
+    {
+        "class_name": "bubble",
+        "confidence": 0.11785189062356949
+    },
+    {
+        "class_name": "Pomeranian",
+        "confidence": 0.046342458575963974
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "shield",
+        "confidence": 0.2994017004966736
+    },
+    {
+        "class_name": "duck",
+        "confidence": 0.2067544013261795
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.09242970496416092
+    },
+    {
+        "class_name": "hair dryer",
+        "confidence": 0.08662008494138718
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.06120362505316734
+    }
+]

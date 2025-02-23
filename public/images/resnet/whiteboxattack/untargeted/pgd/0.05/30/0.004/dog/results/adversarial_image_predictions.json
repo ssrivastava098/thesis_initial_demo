@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.21774929761886597
+    },
+    {
+        "class_name": "shower cap",
+        "confidence": 0.10375802218914032
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.038910575211048126
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.03668197989463806
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.030499231070280075
+    }
+]

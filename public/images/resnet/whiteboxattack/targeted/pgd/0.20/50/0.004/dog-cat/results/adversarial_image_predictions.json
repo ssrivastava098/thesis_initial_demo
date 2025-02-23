@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Siamese cat",
+        "confidence": 1.0
+    },
+    {
+        "class_name": "cougar",
+        "confidence": 1.1644455846337564e-14
+    },
+    {
+        "class_name": "hummingbird",
+        "confidence": 1.1469174236364548e-14
+    },
+    {
+        "class_name": "black-footed ferret",
+        "confidence": 6.404093394636861e-15
+    },
+    {
+        "class_name": "lynx",
+        "confidence": 3.1217253157873838e-15
+    }
+]

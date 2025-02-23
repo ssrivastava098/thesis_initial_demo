@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.60540372133255
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.19432693719863892
+    },
+    {
+        "class_name": "scarf",
+        "confidence": 0.016354912891983986
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.01563769206404686
+    },
+    {
+        "class_name": "Afghan Hound",
+        "confidence": 0.010873768478631973
+    }
+]

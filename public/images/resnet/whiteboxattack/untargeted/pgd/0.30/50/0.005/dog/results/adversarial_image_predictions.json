@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "hair spray",
+        "confidence": 0.4190986752510071
+    },
+    {
+        "class_name": "hair dryer",
+        "confidence": 0.17530080676078796
+    },
+    {
+        "class_name": "duck",
+        "confidence": 0.1346663236618042
+    },
+    {
+        "class_name": "thimble",
+        "confidence": 0.059801943600177765
+    },
+    {
+        "class_name": "microphone",
+        "confidence": 0.020181087777018547
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.1509261280298233
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.09833231568336487
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.05901804193854332
+    },
+    {
+        "class_name": "St. Bernard",
+        "confidence": 0.04995691776275635
+    },
+    {
+        "class_name": "red fox",
+        "confidence": 0.04359138756990433
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "necklace",
+        "confidence": 0.17846396565437317
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.1357060968875885
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.1297696977853775
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.09685306251049042
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.05557725578546524
+    }
+]

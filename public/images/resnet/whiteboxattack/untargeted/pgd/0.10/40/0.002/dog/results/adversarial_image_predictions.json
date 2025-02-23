@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.2963031530380249
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.08643446862697601
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.07688986510038376
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.07593854516744614
+    },
+    {
+        "class_name": "solar thermal collector",
+        "confidence": 0.03577646613121033
+    }
+]

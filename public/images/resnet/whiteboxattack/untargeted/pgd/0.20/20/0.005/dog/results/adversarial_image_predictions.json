@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.29163220524787903
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.1488964855670929
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.10379988700151443
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.0627000480890274
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.033398572355508804
+    }
+]

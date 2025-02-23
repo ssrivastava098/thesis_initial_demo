@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Pomeranian",
+        "confidence": 0.7497846484184265
+    },
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.05706245079636574
+    },
+    {
+        "class_name": "Chow Chow",
+        "confidence": 0.03762632608413696
+    },
+    {
+        "class_name": "Persian cat",
+        "confidence": 0.013532720506191254
+    },
+    {
+        "class_name": "Keeshond",
+        "confidence": 0.011835703626275063
+    }
+]

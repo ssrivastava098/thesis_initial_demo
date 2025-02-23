@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.49485740065574646
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.08055721968412399
+    },
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.08044160902500153
+    },
+    {
+        "class_name": "Basenji",
+        "confidence": 0.06753981113433838
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.05840533971786499
+    }
+]

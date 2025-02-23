@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.2984830141067505
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.07065378874540329
+    },
+    {
+        "class_name": "solar thermal collector",
+        "confidence": 0.07034585624933243
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.05036010220646858
+    },
+    {
+        "class_name": "Basenji",
+        "confidence": 0.03441169485449791
+    }
+]

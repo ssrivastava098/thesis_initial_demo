@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "hair dryer",
+        "confidence": 0.19441519677639008
+    },
+    {
+        "class_name": "maraca",
+        "confidence": 0.1252223402261734
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.10180086642503738
+    },
+    {
+        "class_name": "necklace",
+        "confidence": 0.08317355066537857
+    },
+    {
+        "class_name": "rain barrel",
+        "confidence": 0.06318554282188416
+    }
+]

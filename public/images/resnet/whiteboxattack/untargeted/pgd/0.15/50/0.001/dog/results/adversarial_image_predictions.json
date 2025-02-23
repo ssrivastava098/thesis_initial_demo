@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.06972695887088776
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.05941258743405342
+    },
+    {
+        "class_name": "solar thermal collector",
+        "confidence": 0.047101736068725586
+    },
+    {
+        "class_name": "trimaran",
+        "confidence": 0.03425387665629387
+    },
+    {
+        "class_name": "radio telescope",
+        "confidence": 0.028116224333643913
+    }
+]

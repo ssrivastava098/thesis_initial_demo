@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "gong",
+        "confidence": 0.2023589313030243
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.1560143381357193
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.04217318817973137
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.030806932598352432
+    },
+    {
+        "class_name": "toilet seat",
+        "confidence": 0.030806655064225197
+    }
+]

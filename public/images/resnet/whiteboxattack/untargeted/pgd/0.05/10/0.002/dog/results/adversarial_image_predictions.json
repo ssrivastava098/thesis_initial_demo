@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.18296048045158386
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.13868483901023865
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.11576352268457413
+    },
+    {
+        "class_name": "shoal",
+        "confidence": 0.03723631426692009
+    },
+    {
+        "class_name": "dingo",
+        "confidence": 0.026636462658643723
+    }
+]

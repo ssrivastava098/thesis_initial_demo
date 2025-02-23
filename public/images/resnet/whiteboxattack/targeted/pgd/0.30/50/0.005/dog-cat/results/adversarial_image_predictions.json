@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Siamese cat",
+        "confidence": 1.0
+    },
+    {
+        "class_name": "black-footed ferret",
+        "confidence": 2.956898209965854e-15
+    },
+    {
+        "class_name": "white-headed capuchin",
+        "confidence": 1.7584506555395232e-17
+    },
+    {
+        "class_name": "cougar",
+        "confidence": 1.415231085514733e-17
+    },
+    {
+        "class_name": "European polecat",
+        "confidence": 1.2537295303057972e-17
+    }
+]

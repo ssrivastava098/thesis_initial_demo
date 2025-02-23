@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.4087059199810028
+    },
+    {
+        "class_name": "Siamese cat",
+        "confidence": 0.32226482033729553
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.046993110328912735
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.04182640090584755
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.0384991392493248
+    }
+]

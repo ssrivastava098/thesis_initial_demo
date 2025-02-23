@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.46796053647994995
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.20665007829666138
+    },
+    {
+        "class_name": "duck",
+        "confidence": 0.06255601346492767
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.05855599045753479
+    },
+    {
+        "class_name": "rain barrel",
+        "confidence": 0.037486087530851364
+    }
+]

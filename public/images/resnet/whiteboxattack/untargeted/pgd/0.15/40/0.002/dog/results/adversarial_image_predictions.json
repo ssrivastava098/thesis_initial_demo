@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "gong",
+        "confidence": 0.3122900426387787
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.09050861746072769
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.07829052209854126
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.06564111262559891
+    },
+    {
+        "class_name": "toilet seat",
+        "confidence": 0.04648849740624428
+    }
+]

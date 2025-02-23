@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.9880889058113098
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.009916515089571476
+    },
+    {
+        "class_name": "Miniature Pinscher",
+        "confidence": 0.0004996225470677018
+    },
+    {
+        "class_name": "Papillon",
+        "confidence": 0.00030983894248493016
+    },
+    {
+        "class_name": "Mexican hairless dog",
+        "confidence": 0.0002973350347019732
+    }
+]

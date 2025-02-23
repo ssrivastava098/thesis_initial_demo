@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Siamese cat",
+        "confidence": 0.9999990463256836
+    },
+    {
+        "class_name": "Malinois",
+        "confidence": 3.6245305068405287e-07
+    },
+    {
+        "class_name": "Chihuahua",
+        "confidence": 2.4276786803056893e-07
+    },
+    {
+        "class_name": "black-footed ferret",
+        "confidence": 1.3922331731919257e-07
+    },
+    {
+        "class_name": "Egyptian Mau",
+        "confidence": 3.555522098963593e-08
+    }
+]

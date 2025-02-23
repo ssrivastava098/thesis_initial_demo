@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "duck",
+        "confidence": 0.20591439306735992
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.1123102456331253
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.0817277804017067
+    },
+    {
+        "class_name": "hair spray",
+        "confidence": 0.07269393652677536
+    },
+    {
+        "class_name": "crayfish",
+        "confidence": 0.05888327211141586
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "borzoi",
+        "confidence": 0.1596609503030777
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.13770264387130737
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.07906598597764969
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.056395165622234344
+    },
+    {
+        "class_name": "torch",
+        "confidence": 0.03213709220290184
+    }
+]

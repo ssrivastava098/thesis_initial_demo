@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "gong",
+        "confidence": 0.5374607443809509
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.09775834530591965
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.07305984199047089
+    },
+    {
+        "class_name": "toilet seat",
+        "confidence": 0.030766617506742477
+    },
+    {
+        "class_name": "chime",
+        "confidence": 0.016649382188916206
+    }
+]

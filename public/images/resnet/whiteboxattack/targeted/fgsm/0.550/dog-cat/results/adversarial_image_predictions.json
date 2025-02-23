@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "bubble",
+        "confidence": 0.986024022102356
+    },
+    {
+        "class_name": "honeycomb",
+        "confidence": 0.0032803441863507032
+    },
+    {
+        "class_name": "fountain",
+        "confidence": 0.002473072847351432
+    },
+    {
+        "class_name": "church",
+        "confidence": 0.002311148913577199
+    },
+    {
+        "class_name": "park bench",
+        "confidence": 0.0007040430209599435
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.18483705818653107
+    },
+    {
+        "class_name": "hair spray",
+        "confidence": 0.11644449084997177
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.07318766415119171
+    },
+    {
+        "class_name": "hair dryer",
+        "confidence": 0.06280774623155594
+    },
+    {
+        "class_name": "frying pan",
+        "confidence": 0.04504301771521568
+    }
+]

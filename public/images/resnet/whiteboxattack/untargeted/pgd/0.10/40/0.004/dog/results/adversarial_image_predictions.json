@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.36004123091697693
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.18641197681427002
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.057456184178590775
+    },
+    {
+        "class_name": "drum",
+        "confidence": 0.028461145237088203
+    },
+    {
+        "class_name": "Treeing Walker Coonhound",
+        "confidence": 0.027078600600361824
+    }
+]

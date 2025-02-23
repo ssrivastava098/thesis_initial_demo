@@ -43,29 +43,29 @@ export default function RenderResultsComponent(props) {
     if(fallbackAttackName=== 'fgsm')
     {
       if (fallbackTarget === "untargeted") {
-        filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}`;
+        filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}`;
 
-        adversarial_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/results/adversarial_image_predictions.json`;
+        adversarial_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/results/adversarial_image_predictions.json`;
 
-        original_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/results/original_image_predictions.json`;
+        original_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/results/original_image_predictions.json`;
 
-        tsne_html = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
+        tsne_html = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
 
-        tsne_html_2d = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
+        tsne_html_2d = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
       }
       else
       {
         fallbackImage=props.image+'-'+props.targetImg;
-        filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}`;
+        filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}`;
 
 
-        adversarial_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/results/adversarial_image_predictions.json`;
+        adversarial_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/results/adversarial_image_predictions.json`;
 
-        original_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/results/original_image_predictions.json`;
+        original_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/results/original_image_predictions.json`;
 
-        tsne_html = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
+        tsne_html = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
 
-        tsne_html_2d = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/perturbations/${fallbackPerturbation}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
+        tsne_html_2d = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
       }
       
     }
@@ -76,57 +76,57 @@ export default function RenderResultsComponent(props) {
       {
         fallbackImage=props.image+'-'+props.targetImg;
 
-        filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}`;
+        filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}`;
         console.log(filePath);
 
-        adversarial_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/adversarial_image_predictions.json?`;
+        adversarial_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/adversarial_image_predictions.json?`;
 
-        original_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/original_image_predictions.json?`;
+        original_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/original_image_predictions.json?`;
 
-        tsne_html = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
+        tsne_html = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
 
-        tsne_html_2d = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
+        tsne_html_2d = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
 
-        firstImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_Saliency.jpg?${imageTimestamp}`;
+        firstImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_Saliency.jpg?${imageTimestamp}`;
 
-        lastImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_Saliency.jpg?${imageTimestamp}`;
+        lastImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_Saliency.jpg?${imageTimestamp}`;
 
-        videoSrc_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/saliency_animation_sorted.mp4`;
+        videoSrc_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/saliency_animation_sorted.mp4`;
 
-        firstImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_gradCam.jpg?${imageTimestamp}`;
+        firstImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_gradCam.jpg?${imageTimestamp}`;
 
-        lastImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_gradCam.jpg?${imageTimestamp}`;
+        lastImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_gradCam.jpg?${imageTimestamp}`;
 
-        videoSrc_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
+        videoSrc_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
 
       }
       if(fallbackTarget==='untargeted')
         {
           fallbackImage=props.image;
   
-          filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}`;
+          filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}`;
           console.log(filePath);
 
 
-          adversarial_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/adversarial_image_predictions.json?`;
+          adversarial_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/adversarial_image_predictions.json?`;
   
-          original_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/original_image_predictions.json?`;
+          original_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/results/original_image_predictions.json?`;
   
-          tsne_html = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
+          tsne_html = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
   
-          tsne_html_2d = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
+          tsne_html_2d = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
   
-          firstImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_Saliency.jpg?${imageTimestamp}`;
+          firstImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_Saliency.jpg?${imageTimestamp}`;
   
-          lastImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_Saliency.jpg?${imageTimestamp}`;
+          lastImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_Saliency.jpg?${imageTimestamp}`;
   
-          videoSrc_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/saliency_animation_sorted.mp4`;
+          videoSrc_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/saliency_animation_sorted.mp4`;
   
-          firstImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_gradCam.jpg?${imageTimestamp}`;
+          firstImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/predicted_image_gradCam.jpg?${imageTimestamp}`;
   
-          lastImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_gradCam.jpg?${imageTimestamp}`;
+          lastImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/adversarial_image_gradCam.jpg?${imageTimestamp}`;
   
-          videoSrc_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
+          videoSrc_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackPerturbation}/${fallbackSteps}/${fallbackAlpha}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
   
         }
     }
@@ -137,30 +137,30 @@ export default function RenderResultsComponent(props) {
         {
           fallbackImage=props.image+'-'+props.targetImg;
   
-          filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}`;
+          filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}`;
           console.log(filePath);
 
 
   
-          adversarial_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/adversarial_image_predictions.json?`;
+          adversarial_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/adversarial_image_predictions.json?`;
   
-          original_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/original_image_predictions.json?`;
+          original_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/original_image_predictions.json?`;
   
-          tsne_html = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
+          tsne_html = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
   
-          tsne_html_2d = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
+          tsne_html_2d = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
   
-          firstImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_Saliency.png?${imageTimestamp}`;
+          firstImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_Saliency.png?${imageTimestamp}`;
   
-          lastImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_Saliency.png?${imageTimestamp}`;
+          lastImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_Saliency.png?${imageTimestamp}`;
   
-          videoSrc_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/saliency_animation_sorted.mp4`;
+          videoSrc_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/saliency_animation_sorted.mp4`;
   
-          firstImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_gradCam.png?${imageTimestamp}`;
+          firstImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_gradCam.png?${imageTimestamp}`;
   
-          lastImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_gradCam.png?${imageTimestamp}`;
+          lastImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_gradCam.png?${imageTimestamp}`;
   
-          videoSrc_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
+          videoSrc_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
   
         }
         //cw untargeted
@@ -168,28 +168,28 @@ export default function RenderResultsComponent(props) {
           {
             fallbackImage=props.image;
     
-            filePath_predicted = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image.png?${imageTimestamp}`;
+            filePath_predicted = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image.png?${imageTimestamp}`;
             console.log(filePath);
     
-            adversarial_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/adversarial_image_predictions.json?`;
+            adversarial_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/adversarial_image_predictions.json?`;
     
-            original_json_filePath = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/original_image_predictions.json?`;
+            original_json_filePath = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/results/original_image_predictions.json?`;
     
-            tsne_html = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
+            tsne_html = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_3d_minimal.html?${imageTimestamp}`;
     
-            tsne_html_2d = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
+            tsne_html_2d = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/tsne_2d_minimal.html?${imageTimestamp}`;
     
-            firstImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_Saliency.png?${imageTimestamp}`;
+            firstImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_Saliency.png?${imageTimestamp}`;
     
-            lastImage_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_Saliency.png?${imageTimestamp}`;
+            lastImage_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_Saliency.png?${imageTimestamp}`;
     
-            videoSrc_saliency = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/saliency_animation_sorted.mp4`;
+            videoSrc_saliency = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/saliency_animation_sorted.mp4`;
     
-            firstImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_gradCam.png?${imageTimestamp}`;
+            firstImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/predicted_image_gradCam.png?${imageTimestamp}`;
     
-            lastImage_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_gradCam.png?${imageTimestamp}`;
+            lastImage_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/adversarial_image_gradCam.png?${imageTimestamp}`;
     
-            videoSrc_gradCAM = `images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
+            videoSrc_gradCAM = `${process.env.PUBLIC_URL}/images/${fallbackModel}/${fallbackAttack}/${fallbackTarget}/${fallbackAttackName}/${fallbackConfidence}/${fallbackLangrangeMul}/${fallbackIterations}/${fallbackImage}/gradcam_animation_sorted.mp4?${imageTimestamp}`;
     
           }
       }

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "bubble",
+        "confidence": 0.13167449831962585
+    },
+    {
+        "class_name": "spider web",
+        "confidence": 0.10048948228359222
+    },
+    {
+        "class_name": "chain",
+        "confidence": 0.09306995570659637
+    },
+    {
+        "class_name": "window screen",
+        "confidence": 0.06690963357686996
+    },
+    {
+        "class_name": "shower curtain",
+        "confidence": 0.06089586019515991
+    }
+]

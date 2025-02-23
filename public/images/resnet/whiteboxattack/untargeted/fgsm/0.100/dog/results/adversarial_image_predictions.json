@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.6478917598724365
+    },
+    {
+        "class_name": "wallaby",
+        "confidence": 0.25794172286987305
+    },
+    {
+        "class_name": "toy terrier",
+        "confidence": 0.048257485032081604
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.011417699977755547
+    },
+    {
+        "class_name": "Miniature Pinscher",
+        "confidence": 0.007569899316877127
+    }
+]

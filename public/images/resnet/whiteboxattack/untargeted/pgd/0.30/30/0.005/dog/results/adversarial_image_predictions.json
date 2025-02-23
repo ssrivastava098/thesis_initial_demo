@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.37270835041999817
+    },
+    {
+        "class_name": "Shetland Sheepdog",
+        "confidence": 0.22441281378269196
+    },
+    {
+        "class_name": "rain barrel",
+        "confidence": 0.1366264373064041
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.06336987018585205
+    },
+    {
+        "class_name": "hair dryer",
+        "confidence": 0.0482587069272995
+    }
+]

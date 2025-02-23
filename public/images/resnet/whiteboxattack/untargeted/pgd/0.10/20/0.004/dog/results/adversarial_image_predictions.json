@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "gong",
+        "confidence": 0.11587459594011307
+    },
+    {
+        "class_name": "collie",
+        "confidence": 0.11239743232727051
+    },
+    {
+        "class_name": "shield",
+        "confidence": 0.08772214502096176
+    },
+    {
+        "class_name": "solar thermal collector",
+        "confidence": 0.06271805614233017
+    },
+    {
+        "class_name": "chime",
+        "confidence": 0.04092252999544144
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.1028197631239891
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.09437499195337296
+    },
+    {
+        "class_name": "shower cap",
+        "confidence": 0.09069555997848511
+    },
+    {
+        "class_name": "gong",
+        "confidence": 0.07326953113079071
+    },
+    {
+        "class_name": "solar thermal collector",
+        "confidence": 0.0684722512960434
+    }
+]

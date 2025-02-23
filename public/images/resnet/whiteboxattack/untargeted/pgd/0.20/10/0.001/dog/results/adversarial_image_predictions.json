@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.16751344501972198
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.1659126877784729
+    },
+    {
+        "class_name": "Australian Kelpie",
+        "confidence": 0.10566387325525284
+    },
+    {
+        "class_name": "Chihuahua",
+        "confidence": 0.10030066221952438
+    },
+    {
+        "class_name": "Basenji",
+        "confidence": 0.016456643119454384
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "bubble",
+        "confidence": 0.508071780204773
+    },
+    {
+        "class_name": "honeycomb",
+        "confidence": 0.06628359854221344
+    },
+    {
+        "class_name": "orange",
+        "confidence": 0.0459737703204155
+    },
+    {
+        "class_name": "spider web",
+        "confidence": 0.039858628064394
+    },
+    {
+        "class_name": "window screen",
+        "confidence": 0.03573506325483322
+    }
+]

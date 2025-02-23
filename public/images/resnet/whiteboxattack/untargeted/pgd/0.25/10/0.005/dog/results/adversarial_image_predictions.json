@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "collie",
+        "confidence": 0.1481134593486786
+    },
+    {
+        "class_name": "Cardigan Welsh Corgi",
+        "confidence": 0.08632738143205643
+    },
+    {
+        "class_name": "Pembroke Welsh Corgi",
+        "confidence": 0.060051947832107544
+    },
+    {
+        "class_name": "borzoi",
+        "confidence": 0.04758702591061592
+    },
+    {
+        "class_name": "shoal",
+        "confidence": 0.034201037138700485
+    }
+]
